@@ -1,1 +1,7 @@
-pip install pyautogui pytesseract opencv-python pillow numpy matplotlib tk requests
+pyautogui
+pytesseract
+opencv-python
+pillow
+numpy
+matplotlib
+requests
