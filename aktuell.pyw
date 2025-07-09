@@ -8,7 +8,7 @@ import requests
 GEGNER_DIR = "ressources/gegner"
 GEGNER_DIR_M = "ressources/monsters"
 GEGNER_PREVIEW = "ressources/preview"
-CURRENT_VERSION = "2.5"
+CURRENT_VERSION = "2.6"
 
 def check_for_update_and_restart():
     try:
