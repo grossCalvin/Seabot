@@ -3,19 +3,17 @@
 
 # Seabot Taskliste
 
-| Priorität | Aufgabe                                                                                   | Erledigt |
-|-----------|--------------------------------------------------------------------------------------------|----------|
-| 0         | Captcha-Feld ausfüllen → `click -> move -> time.sleep(0.5)`                               | ✅       |
-| 1         | Captcha-Fail → Restart                                                                     | ✅       |
-| 2         | Dwarfhunt: Auswahl zwischen *Pro* und *Junior* wie beim BM-Bot (Boss-Switch)              | ✅       |
-| 3         | Dwarfhunt funktionaler:                                                                    | ✅       |
-|           | • Neue Koordinatenbilder für *Bloody Pro* und *Junior* (oben links)                        |          |
-|           | • Genauere Koordinaten für *Junior* und *Pro*                                              | ✅       |
-|           | • Koordinaten ohne `time.sleep`, stattdessen mit `if`-Check                                | ✅       |
-| 4         | Dwarfhunt mit Death-Check und Respawn-Sprung zur *Bloody*                                 | ⏳       |
-| 5         | Bei *Bloody Pro* müssen noch die richtigen Bewegungsbilder geprüft werden                 | ⏳       |
-| 6         | Munitionsauswahl in den Settings                                                           | ⏳       |
-| 7         | Chesthunt: Reparatur nach Chest-Collect                                                    | ⏳       |
-| 8         | Karte 11 funktioniert nicht unten links                                                    | ⏳       |
-| 9         | Monsterreichweite etwas reduzieren (ca. 20 %)                                              | ⏳       |
-
+| Priorität | Aufgabe                                                                                             | Erledigt |
+|-----------|------------------------------------------------------------------------------------------------------|----------|
+| 0         | captchafeld ausfüllen click -> move time.sleep(0.5)                                                 | ✅       |
+| 1         | captchafail = restart                                                                               | ✅       |
+| 2         | Dwarfhunt Auswahl zwischen pro und junior wie BM bot \| boss switch                                 | ✅       |
+| 3         | Dwarfhunt funktionaler -> neue kord bilder für bloody pro und bei junior oben links                | ✅       |
+|           | 3.1 kords müssen genauer für junior und pro er wechselt zu früh                                     | ✅       |
+|           | 3.2 kords ohne timesleep (schnellere suche nach kords) und mit if check wie normaler modus          | ✅       |
+| 4         | Dwarfhunt mit deathcheck und respawn sprung zur bloody                                              | ⏳       |
+| 5         | auf bloody pro muss noch nach den richtigen Bildern bei Bewegung geschaut werden                    | ⏳       |
+| 6         | Munitionsauswahl in Settings                                                                        | ⏳       |
+| 7         | chesthunt repair after chestcollect                                                                 | ⏳       |
+| 8         | Karte 11 geht nicht unten links                                                                     | ⏳       |
+| 9         | Monster Reichweite etwas weniger (20%)                                                              | ⏳       |
