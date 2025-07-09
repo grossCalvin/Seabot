@@ -1,15 +1,20 @@
 # Seabot
-Das Repo zum Seabot für Autoupdate.
+**Das Repository zum Seabot für Autoupdate.**
 
-x -1. captchafeld ausfüllen click -> move time.sleep(0.5)
-x 0. captchafail = restart
-x 1. Dwarfhunt Auswahl zwischen pro und junior wie BM bot | boss switch
-x 2. Dwarfhunt funktionaler -> neue kord bilder für bloody pro und bei junior oben links
-    2.1 kords müssen genauer für junior und pro
-    2.2 kords ohne timesleep und mit if check
-3. Dwarfhunt mit deathcheck und respawn sprung zur bloody
-3.5 auf bloody pro muss noch nach den richtigen Bildern bei Bewegung geschaut werden
-4. Munitionsauswahl in Settings
-5. chesthunt repair after chestcollect
-6. Karte 11 geht nicht unten links
-7. Monster Reichweite etwas weniger (20%)
+## ✅ Erledigt
+- **-1.** Captcha-Feld ausfüllen:  
+  `click -> move -> time.sleep(0.5)`
+- **0.** Captcha-Fail → Restart
+- **1.** Dwarfhunt: Auswahl zwischen *Pro* und *Junior* wie beim BM-Bot (Boss-Switch)
+- **2.** Dwarfhunt funktionaler:
+  - Neue Koordinatenbilder für *Bloody Pro* und *Junior* (oben links)
+  - **2.1** Genauere Koordinaten für *Junior* und *Pro*
+  - **2.2** Koordinaten ohne `time.sleep`, stattdessen mit `if`-Check
+
+## 🔄 In Arbeit / ToDo
+- **3.** Dwarfhunt mit Death-Check und Respawn-Sprung zur *Bloody*
+- **3.5** Bei *Bloody Pro* müssen noch die richtigen Bewegungsbilder geprüft werden
+- **4.** Munitionsauswahl in den Settings
+- **5.** Chesthunt: Reparatur nach Chest-Collect
+- **6.** Karte 11 funktioniert nicht unten links
+- **7.** Monsterreichweite etwas reduzieren (ca. 20 %)
